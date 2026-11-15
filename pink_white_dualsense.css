@@ -4,7 +4,7 @@ body {
     margin: 0 auto; 
     overflow: hidden; 
 } .controller.ds4{
-    background: url(https://nmullen1014-lang.github.io/pink-white-controller/controller.png);
+    background: url("https://nmullen1014-lang.github.io/pink-white-controller/controller.png");
     width: 794px;
     height: 639px;
     margin-left: 0;
@@ -15,7 +15,7 @@ body {
     left: 222px;
     top: 294px;
 }.ds4 .stick {
-    background: url(https://nmullen1014-lang.github.io/pink-white-controller/sticks.png)
+    background: url("https://nmullen1014-lang.github.io/pink-white-controller/sticks.png");
     width: 95px;
     height: 95px;
 } .ds4 .stick.pressed.left, .ds4 .stick.pressed.right {
@@ -29,7 +29,7 @@ body {
     left: 559px;
     top: 152px;
 } .ds4 .button {
-    background: url(https://nmullen1014-lang.github.io/pink-white-controller/buttons.png)
+    background: url("https://nmullen1014-lang.github.io/pink-white-controller/buttons.png");
     width: 54px;
     height: 54px;
 } .ds4 .button.pressed {
@@ -82,7 +82,7 @@ body {
     left: 90px;
     top: 98px;
 } .ds4 .bumper {
-    background: url(wijYAzG.png);
+    background: url("https://nmullen1014-lang.github.io/pink-white-controller/wijYAzG.png");
     width: 114px;
     height: 36px;
     opacity: 0;
@@ -93,7 +93,7 @@ body {
     height: 97px;
     left: 100px;
 } .ds4 .trigger {
-    background: url(KcAyIZw.png);
+    background: url("https://nmullen1014-lang.github.io/pink-white-controller/KcAyIZw.png");
     width: 100px;
     height: 97px;
     opacity: 0;
@@ -115,7 +115,7 @@ body {
     top: 171px;
     left: 82px;
 } .ds4 .face {
-    background: url(dpad.png);
+    background: url("https://nmullen1014-lang.github.io/pink-white-controller/dpad.png");
     position: absolute;
 } .ds4 .face.up, .ds4 .face.down {
     width: 44px;
@@ -146,7 +146,7 @@ body {
 /* Pink & White custom skin: keep the approved controller body as a single image.
    GamepadViewer supplies input classes and stick movement. */
 body { background: transparent !important; }
-.controller.ds4 { background: url("controller.png") 0 0 / 794px 639px no-repeat !important; }
+.controller.ds4 { background: url("https://nmullen1014-lang.github.io/pink-white-controller/controller.png") 0 0 / 794px 639px no-repeat !important; }
 /* Cyan light on press, preserving original sprite outlines. */
 .ds4 .button.pressed, .ds4 .face.pressed, .ds4 .stick.pressed { filter: drop-shadow(0 0 5px rgba(0,235,255,.8)); }
 /* Trigger and bumper sprites use the ORIGINAL GamepadViewer dimensions and positions. */
