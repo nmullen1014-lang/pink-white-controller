@@ -15,7 +15,7 @@ body {
     left: 222px;
     top: 294px;
 }.ds4 .stick {
-    background: url(sticks.png);
+    background: url(https://nmullen1014-lang.github.io/pink-white-controller/sticks.png)
     width: 95px;
     height: 95px;
 } .ds4 .stick.pressed.left, .ds4 .stick.pressed.right {
@@ -29,7 +29,7 @@ body {
     left: 559px;
     top: 152px;
 } .ds4 .button {
-    background: url(buttons.png);
+    background: url(https://nmullen1014-lang.github.io/pink-white-controller/buttons.png)
     width: 54px;
     height: 54px;
 } .ds4 .button.pressed {
